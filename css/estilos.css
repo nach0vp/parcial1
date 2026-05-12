@@ -1,0 +1,79 @@
+/*imagen de fondo para las paginas*/
+body {background-image: URL("../img/fondo.png");}
+
+/*Google fontos para los titulos*/
+h1,h2,h3,h4 {font-family: "Abel", sans-serif;
+			font-weight: 400;
+			font-style: normal;}
+
+/*atributo id del elemento div que contiene todo lo que esta en el body*/
+#contenedor {width: 100%;
+			max-width: 1100px;
+			padding: 2em;
+			margin: 3em auto;
+			background-color: rgb(197, 255, 247);}
+
+/*estilos en el elemento header y el elemento footer*/
+header, footer {background-color: rgb(57, 68, 123);
+				color: 	white;
+				padding: 1em;
+				margin: 1em;}
+
+footer {background-color: rgb(250, 230, 255);
+		color: gray;}
+
+/*estilos del menu*/
+nav {text-align: center;
+	background-color: rgb(75, 230, 255);
+	padding: 1em;
+	margin: 1em;}
+
+nav ul {margin: 0;
+		padding: 0;
+		list-style-type: none;}
+
+nav li {display: inline-block;}
+
+nav a {padding: 1em;
+		text-decoration: none;}
+
+nav a:link {background-color: rgb(75, 230, 255);
+			color: rgb(0, 0, 64);}
+nav a:visited {background-color: rgb(75, 230, 255);
+				color: rgb(0, 0, 64);}
+nav a:hover {background-color: rgb(195, 230, 255);
+			color: gray;}
+nav a:active {background-color:	white;
+				color: black;}
+
+/*estilos en el main, section y article*/
+main {background-color: rgb(71, 117, 159);
+	  color: white;
+	  padding-top: 1em;
+	  padding-bottom: 0.5em;
+	  margin: 0;}
+
+main h3 {padding-left: 1em;}
+
+article {background-color: white;
+		color: #4B0082;
+		padding: 1em;
+		margin: 0;}
+
+/*imagenes, segun la ia, en trabahos anteriores, me recomendo usar float para mover mas facil la imagen*/
+.ubicacionimg {margin-top: 1em;
+			   margin-right: 1em;}
+
+.imgright {float: right;
+			margin: 1em;}
+
+/*atributo id para el video*/
+#video {margin-right: 9em;}
+
+/*atributo id para la frase en del final en la pagina del index*/
+#frase {margin: 1em;
+		padding: 1em;
+		text-align: center;
+		border-width: 1px;
+		border-color: #4963F8;
+		background-color: #B1CEF7;}
